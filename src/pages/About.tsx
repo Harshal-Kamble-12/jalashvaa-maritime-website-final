@@ -29,10 +29,10 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="font-heading text-3xl font-bold text-foreground">Company Overview</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Jalashvaa Maritime Private Limited is a premier Indian maritime company offering end-to-end ship management and marine services. We bring decades of experience in managing diverse vessel types including oil tankers, chemical tankers, and bulk carriers.
+                Jalashvaa Maritime Private Limited is a premier maritime company headquatered in India offering end-to-end maritime solutions. Jalashvaa Maritime Pvt Ltd brings decades of experience in managing diverse vessel types ranging from tankers, bulk carriers, specilised offshore vessels worldwide.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Our commitment to safety, quality, and environmental stewardship has earned us the trust of ship owners and operators worldwide. We leverage modern technology and industry best practices to deliver exceptional value to our clients.
+                Our personalized attention ensures safety of life, environment, assets along with delievring quality and efficiency in operations. We leverage modern technology and industry best practices to deliver exceptional value to our clients.
               </p>
             </div>
             <img

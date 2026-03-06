@@ -1,6 +1,6 @@
 import PageHeader from "@/components/PageHeader";
 import SectionWrapper from "@/components/SectionWrapper";
-import fleetTanker from "@/assets/fleet-tanker.jpg";
+import offshoretank from "@/assets/fleet-tanker.jpg";
 import fleetBulk from "@/assets/fleet-bulk.jpg";
 import fleetOil from "@/assets/fleet-oil.jpg";
 
@@ -9,13 +9,13 @@ const vessels = [
     image: fleetOil,
     type: "Oil Tankers",
     desc: "Our managed fleet of oil tankers operates across major global trade routes, transporting crude oil and petroleum products with the highest safety and environmental standards.",
-    specs: ["VLCC & Aframax", "Double hull construction", "Oil Major approved", "SIRE vetted"],
+    specs: ["Aframax", "Double hull construction", "Oil Major approved", "SIRE vetted"],
   },
   {
-    image: fleetTanker,
-    type: "Chemical Tankers",
-    desc: "We manage specialized chemical tankers equipped to handle a wide range of chemical and petrochemical cargoes, meeting the most stringent CDI and industry requirements.",
-    specs: ["IMO II & III compliant", "Stainless steel / coated tanks", "CDI inspected", "Multi-grade capable"],
+    image: offshoretank,
+    type: "Offshore Vessels",
+    desc: "We manage and support specialized offshore vessels engaged in oil and gas exploration, subsea operations, and offshore logistics.",
+    specs: ["DP I & DP II", "AHTS - 80 - 150 T", "DSV & Port Operations", "Survey Ships"],
   },
   {
     image: fleetBulk,

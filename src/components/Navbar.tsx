@@ -237,10 +237,10 @@ import logo from "../assets/logo.png";
 
 const navLinks = [
   { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
+  { to: "/about", label: "About Us" },
+  { to: "/companypolicies", label: "Company Policies" },
   { to: "/services", label: "Services" },
   { to: "/fleet", label: "Fleet" },
-  { to: "/companypolicies", label: "Company Policies" },
   { to: "/contact", label: "Contact" },
 ];
 
