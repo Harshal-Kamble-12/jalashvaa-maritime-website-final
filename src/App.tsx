@@ -15,6 +15,11 @@ import CompanyPolicies from "./pages/companypolicies";
 import DemoHero from "@/pages/DemoHero";     //demo page
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import CompanyOverview from "./pages/about/company-overview";
+import VisionMission from "./pages/about/vision-mission";
+import BoardMembers from "./pages/about/board-members";
+import ManagementTeam from "./pages/about/management-team";
+import VoyageSoFar from "./pages/about/voyage-so-far";
 
 const queryClient = new QueryClient();
 
@@ -43,6 +48,11 @@ const App = () => (
           <Route path="/companypolicies" element={<CompanyPolicies />} />
           <Route path="/demo-hero" element={<DemoHero />} />    
           <Route path="*" element={<NotFound />} />
+          <Route path="/about/company-overview" element={<CompanyOverview />} />
+          <Route path="/about/vision-mission" element={<VisionMission />} />
+          <Route path="/about/board-members" element={<BoardMembers />} />
+          <Route path="/about/management-team" element={<ManagementTeam />} /> 
+          <Route path="/about/voyage-so-far" element={<VoyageSoFar />} />
         </Routes>
         <Footer />
       </BrowserRouter>

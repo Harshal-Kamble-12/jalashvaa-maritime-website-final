@@ -10,9 +10,6 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              {/*<div className="w-10 h-10 rounded-full bg-gold flex items-center justify-center">
-                <Anchor className="w-5 h-5 text-navy" />
-              </div>*/ }
               <div className="w-12 h-12">
               <img 
               src={logo} 
@@ -35,7 +32,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {[
                 { to: "/", label: "Home" },
-                { to: "/about", label: "About Us" },
+                { to: "/about/company-overview", label: "About Us" },
                 { to: "/services", label: "Our Services" },
                 { to: "/fleet", label: "Our Fleet" },
                 { to: "/companypolicies", label: "Company Policies"},
@@ -49,6 +46,9 @@ const Footer = () => {
               ))}
             </ul>
           </div>
+
+
+
 
           {/* Services */}
           <div>

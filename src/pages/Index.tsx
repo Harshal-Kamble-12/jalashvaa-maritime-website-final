@@ -32,10 +32,10 @@ const Index = () => {
                 A Legacy of Maritime <span className="text-gradient-gold">Excellence</span>
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Jalashvaa Maritime Private Limited, is a Indian maritime company dedicated to delivering world-class ship management and marine services. With decades of combined experience, we provide comprehensive solutions to the global maritime industry.
+                Jalashvaa Maritime Private Limited, is a Indian maritime company dedicated to delivering world-class ship management and marine solutions. With decades of combined experience, we provide comprehensive solutions to the global maritime industry.
               </p>
               <Link
-                to="/about"
+                to="/about/company-overview"
                 className="inline-flex items-center gap-2 text-gold font-heading font-semibold hover:gap-3 transition-all"
               >
                 Learn More About Us <ArrowRight className="w-4 h-4" />
