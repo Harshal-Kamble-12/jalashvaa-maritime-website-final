@@ -8,7 +8,7 @@ const services = [
   { icon: Ship, title: "Ship Management", desc: "Comprehensive ship management solutions ensuring optimal vessel performance and regulatory compliance." },
   { icon: Fuel, title: "Tanker Operations", desc: "Specialized tanker operation support for oil and chemical tanker fleets" },
   { icon: Users, title: "Crew Management", desc: "Recruitment, training, and management of qualified maritime professionals worldwide." },
-  { icon: ShieldCheck, title: "IT Services", desc: "IT solutions for vessels and maritime companies including Starlink, VSAT connectivity, firewall protection, cybersecurity, and ERP systems." },
+  { icon: ShieldCheck, title: "IT Services", desc: "IT solutions for vessels to monitor ships, manage emission controls, Compliance & Voyage Management." },
 ];
 
 const whyUs = [

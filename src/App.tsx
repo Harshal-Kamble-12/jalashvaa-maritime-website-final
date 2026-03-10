@@ -20,6 +20,7 @@ import VisionMission from "./pages/about/vision-mission";
 import BoardMembers from "./pages/about/board-members";
 import ManagementTeam from "./pages/about/management-team";
 import VoyageSoFar from "./pages/about/voyage-so-far";
+import News from "./pages/news";
 
 const queryClient = new QueryClient();
 
@@ -45,6 +46,7 @@ const App = () => (
           <Route path="/services" element={<Services />} />
           <Route path="/fleet" element={<Fleet />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/news" element={<News />} />
           <Route path="/companypolicies" element={<CompanyPolicies />} />
           <Route path="/demo-hero" element={<DemoHero />} />    
           <Route path="*" element={<NotFound />} />

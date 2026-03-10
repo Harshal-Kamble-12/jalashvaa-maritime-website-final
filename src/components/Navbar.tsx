@@ -129,6 +129,7 @@ const navLinks = [
   { to: "/companypolicies", label: "Company Policies" },
   { to: "/services", label: "Services" },
   { to: "/fleet", label: "Fleet" },
+  { to: "/news", label: "News"},
   { to: "/contact", label: "Contact" },
 ];
 

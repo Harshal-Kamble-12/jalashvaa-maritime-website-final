@@ -216,11 +216,13 @@
 
 
 
-import { useState, FormEvent } from "react";
+import { useState,useEffect, FormEvent } from "react";
 import PageHeader from "@/components/PageHeader";
 import SectionWrapper from "@/components/SectionWrapper";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
 import emailjs from "@emailjs/browser";
+
+
 
 interface FormData {
   name: string;
@@ -246,6 +248,13 @@ const Contact = () => {
 
   const [errors, setErrors] = useState<FormErrors>({});
   const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+  const script = document.createElement("script");
+  script.src = "https://elfsightcdn.com/platform.js";
+  script.async = true;
+  document.body.appendChild(script);
+}, []);
 
   const validate = (): boolean => {
     const errs: FormErrors = {};
@@ -321,7 +330,18 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div className="space-y-5">
+
+
+              {/* Google Reviews */}
+                <div className="mb-6">
+
+                  <div
+                    className="elfsight-app-464d20a4-dada-461e-98de-47d9ef33079f"
+                    data-elfsight-app-lazy
+                  ></div>
+                </div>
+            <div className="space-y-5">
+
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-lg bg-navy flex items-center justify-center shrink-0">
                     <MapPin className="w-5 h-5 text-primary-foreground" />
@@ -336,6 +356,8 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
+
+                
 
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-lg bg-navy flex items-center justify-center shrink-0">
@@ -360,7 +382,7 @@ const Contact = () => {
                       Email
                     </h4>
                     <p className="text-muted-foreground text-sm mt-1">
-                      admin@jalashvaa.com
+                      info@jalashvaa.com
                     </p>
                   </div>
                 </div>
@@ -378,6 +400,7 @@ const Contact = () => {
                 />
               </div>
             </div>
+
 
           {/* Contact Form */}
           <div className="bg-card rounded-lg p-8 shadow-maritime">

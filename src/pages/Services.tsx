@@ -38,8 +38,8 @@ const services = [
   {
     icon: ShieldCheck,
     title: "IT Services",
-    short: "IT solutions for vessels and maritime companies including Starlink, VSAT connectivity, firewall protection, cybersecurity, and ERP systems.",
-    details: "We provide specialized IT solutions for both vessels and maritime offices to ensure reliable connectivity and secure digital operations. Our services include installation and support for vessel communication systems such as Starlink and VSAT, network infrastructure setup, firewall deployment, and advanced cybersecurity protection. For shore-based operations, we offer ERP system implementation and digital workflow solutions to streamline fleet management, crew administration, finance, and operational reporting. Our goal is to help maritime businesses stay connected, secure, and technologically efficient both at sea and on shore.",
+    short: "IT solutions for vessels to monitor ships, manage emission controls, Compliance & Voyage Management.",
+    details: "We offer solution for the shipsOur maritime IT services are centered around our proprietary, end-to-end ERP system, specifically engineered for the complexities of modern fleet operations. We provide a unified digital ecosystem that integrates real-time vessel monitoring with advanced voyage management and automated emission controls. By implementing our custom software, we bridge the gap between ship and shore, ensuring seamless data flow and total regulatory compliance. Our solution empowers operators to optimize fuel efficiency, streamline administrative workflows, and maintain a competitive, data-driven edge in a rapidly evolving global maritime landscape.",
   },
 ];
 
@@ -133,7 +133,7 @@ const Services = () => {
                 Our Partners
               </h2>
               <p className="text-muted-foreground mt-3">
-                Trusted partners we collaborate with to deliver reliable maritime solutions.
+                Trusted strategic partners to deliver reliable & sustained maritime solutions.
               </p>
             </div>
 

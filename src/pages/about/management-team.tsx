@@ -111,21 +111,21 @@ const MgmtTeam = [
   },
   {
     name: "Capt Manish Yadav",
-    role: "Marine Superintendent",
+    role: "Head - Operations",
     image: "/board/manish.jpg",
     description:
       "Master Mariner (FG) and Marine Superintendent with over 20 years of seagoing and shore-based experience on dry, liquid, and offshore vessels. Responsible for marine operations, safety management, statutory compliance, vetting and PSC readiness, incident investigations, and audits, while advancing operational excellence in line with TMSA and HSEQ objectives.",
   },
   {
     name: "Ankit Singh",
-    role: "Technical Superintendent",
+    role: "Head - Technical",
     image: "/board/ankit.jpg",
     description:
       "A chief engineer having a proven track record in managing a pool of ships (Dry as well as Liquid Cargo). While being an expert technical manager he specializes in the new building and has delivered 3 oil/chem tankers (keel to delivery). Involved in drawing approval of 2 vessels in Namura & Imabari in Japan.",
   },
   {
     name: "Amit Singh",
-    role: "Compliance Manager",
+    role: "Head - Compliance & Statuatory",
     image: "/board/amit.jpg",
     description:
       "An accomplished Compliance Manager responsible for ensuring adherence to statutory, regulatory, and classification requirements across offshore and main fleet operations. He oversees compliance frameworks, regulatory coordination, and documentation to ensure all operations meet applicable maritime standards and company policies.",
