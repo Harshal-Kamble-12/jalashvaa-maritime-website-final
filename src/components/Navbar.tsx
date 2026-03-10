@@ -153,10 +153,10 @@ const Navbar = () => {
           />
 
           <div className="flex flex-col leading-tight">
-            <span className="text-3xl font-bold text-gray-900">
+            <span className="text-2xl font-bold text-gray-900">
               Jalashvaa Maritime
             </span>
-            <span className="text-[16px] text-yellow-500 tracking-[0.25em] uppercase font-bold">
+            <span className="text-[14px] text-yellow-500 tracking-[0.25em] uppercase font-bold">
               Private Limited
             </span>
           </div>
