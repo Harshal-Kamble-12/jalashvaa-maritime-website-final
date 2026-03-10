@@ -22,7 +22,7 @@ const VisionMission = () => {
                         </div>
                         <h3 className="font-heading text-2xl font-bold text-foreground mb-3">Our Mission</h3>
                         <p className="text-muted-foreground leading-relaxed">
-                            To deliver world-class maritime services through operational excellence, innovation, and an unwavering commitment to safety. We aim to be the preferred partner for ship owners seeking reliable, cost-effective management solutions.
+                            To revolutionize the ship management industry through innovation, sustainability, and a relentless commitment to excellence, ensuring safe, efficient, and environmentally responsible operations across the world’s seas.
                         </p>
                         </div>
                         <div className="bg-card rounded-lg p-8 shadow-maritime">
@@ -31,7 +31,7 @@ const VisionMission = () => {
                         </div>
                         <h3 className="font-heading text-2xl font-bold text-foreground mb-3">Our Vision</h3>
                         <p className="text-muted-foreground leading-relaxed">
-                            To be recognized as a global leader in maritime services, setting industry benchmarks for quality, safety, and sustainability. We envision a future where our expertise and innovation shape the maritime industry for the better.
+                            To deliver unparalleled ship management services by prioritizing safety, innovation, and environmental stewardship. We are dedicated to fostering sustainable maritime practices, optimizing operational efficiency, and ensuring the highest standards of compliance and customer satisfaction across the global seas
                         </p>
                         </div>
                     </div>

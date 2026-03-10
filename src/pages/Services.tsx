@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PageHeader from "@/components/PageHeader";
 import SectionWrapper from "@/components/SectionWrapper";
-import { Ship, Wrench, Users, Fuel, Compass, Briefcase, ChevronDown, ChevronUp } from "lucide-react";
+import { Ship, Wrench, Users, Fuel, Compass, Briefcase, ChevronDown,ShieldCheck, ChevronUp } from "lucide-react";
 
 const services = [
   {
@@ -10,12 +10,7 @@ const services = [
     short: "Comprehensive full-service ship management including operational, commercial, and regulatory oversight.",
     details: "Our ship management services cover the complete spectrum of vessel operations. We handle day-to-day management, ensure regulatory compliance with all flag state and classification society requirements, optimize operational costs, and maintain the highest standards of safety and efficiency. Our team of experienced shore-based managers works closely with onboard crews to deliver seamless operations.",
   },
-  {
-    icon: Wrench,
-    title: "Technical Management",
-    short: "Expert technical oversight, planned maintenance systems, and dry-docking supervision.",
-    details: "An effective and efficient technical management of merchant vessels. With the use of cutting-edge technology applications, we deliver real-time ship management.",
-  },
+  
   {
     icon: Users,
     title: "Crew Management",
@@ -39,6 +34,20 @@ const services = [
     title: "Chartering & Operations Support",
     short: "End-to-end chartering support and commercial operations management.",
     details: "We offer comprehensive chartering support including fixture negotiations, voyage estimations, laytime calculations, and post-fixture operations. Our commercial team ensures optimal vessel employment, monitors market trends, and provides valuable intelligence to maximize returns on your maritime assets.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "IT Services",
+    short: "IT solutions for vessels and maritime companies including Starlink, VSAT connectivity, firewall protection, cybersecurity, and ERP systems.",
+    details: "We provide specialized IT solutions for both vessels and maritime offices to ensure reliable connectivity and secure digital operations. Our services include installation and support for vessel communication systems such as Starlink and VSAT, network infrastructure setup, firewall deployment, and advanced cybersecurity protection. For shore-based operations, we offer ERP system implementation and digital workflow solutions to streamline fleet management, crew administration, finance, and operational reporting. Our goal is to help maritime businesses stay connected, secure, and technologically efficient both at sea and on shore.",
+  },
+];
+
+
+const partners = [
+  {
+    name: "Farohar Enterprizes",
+    link: "https://faroharltd.com/", 
   },
 ];
 
@@ -88,6 +97,72 @@ const Services = () => {
           </div>
         </div>
       </SectionWrapper>
+
+
+{/* <SectionWrapper className="py-16 bg-muted">
+  <div className="container mx-auto px-4 text-center">
+    
+    <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-8">
+      Our Partners
+    </h2>
+
+    <div className="max-w-2xl mx-auto flex flex-col gap-4">
+      {partners.map((partner) => (
+        <a
+          key={partner.name}
+          href={partner.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg font-medium text-gold hover:text-navy transition-colors underline"
+        >
+          {partner.name}
+        </a>
+      ))}
+    </div>
+
+  </div>
+</SectionWrapper> */}
+
+
+        <SectionWrapper className="py-20 bg-muted">
+          <div className="container mx-auto px-4 max-w-4xl">
+
+            {/* Title */}
+            <div className="text-center mb-12">
+              <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
+                Our Partners
+              </h2>
+              <p className="text-muted-foreground mt-3">
+                Trusted partners we collaborate with to deliver reliable maritime solutions.
+              </p>
+            </div>
+
+            {/* Long Partner Cards */}
+            <div className="flex flex-col gap-6">
+
+              {partners.map((partner) => (
+                <a
+                  key={partner.name}
+                  href={partner.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group w-full bg-card border border-border rounded-xl px-8 py-6 flex items-center justify-between hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                >
+
+                  <span className="text-xl font-semibold text-foreground group-hover:text-gold transition-colors">
+                    {partner.name}
+                  </span>
+
+                  <span className="text-gold text-xl group-hover:translate-x-2 transition-transform">
+                    →
+                  </span>
+
+                </a>
+              ))}
+
+            </div>
+          </div>
+        </SectionWrapper>
     </main>
   );
 };
