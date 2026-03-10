@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Shield, Users, Award, Compass, Ship, Wrench, Globe } from "lucide-react";
+import { ArrowRight, Shield, Users, Award, Compass, Ship, Wrench, Globe,Fuel,ShieldCheck } from "lucide-react";
 import HeroSection from "@/components/HeroSection";
 import SectionWrapper from "@/components/SectionWrapper";
 import aboutImage from "@/assets/about-maritime.jpg";
 
 const services = [
   { icon: Ship, title: "Ship Management", desc: "Comprehensive ship management solutions ensuring optimal vessel performance and regulatory compliance." },
-  { icon: Wrench, title: "Technical Management", desc: "Expert technical oversight, maintenance planning, and dry-docking supervision for all vessel types." },
+  { icon: Fuel, title: "Tanker Operations", desc: "Specialized tanker operation support for oil and chemical tanker fleets" },
   { icon: Users, title: "Crew Management", desc: "Recruitment, training, and management of qualified maritime professionals worldwide." },
-  { icon: Globe, title: "Marine Consultancy", desc: "Strategic maritime advisory services covering operations, compliance, and market intelligence." },
+  { icon: ShieldCheck, title: "IT Services", desc: "IT solutions for vessels and maritime companies including Starlink, VSAT connectivity, firewall protection, cybersecurity, and ERP systems." },
 ];
 
 const whyUs = [
