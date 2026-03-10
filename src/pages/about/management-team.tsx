@@ -111,7 +111,7 @@ const MgmtTeam = [
   },
   {
     name: "Capt Manish Yadav",
-    role: "Technical Superintendent",
+    role: "Marine Superintendent",
     image: "/board/manish.jpg",
     description:
       "Master Mariner (FG) and Marine Superintendent with over 20 years of seagoing and shore-based experience on dry, liquid, and offshore vessels. Responsible for marine operations, safety management, statutory compliance, vetting and PSC readiness, incident investigations, and audits, while advancing operational excellence in line with TMSA and HSEQ objectives.",
