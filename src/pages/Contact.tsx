@@ -382,7 +382,7 @@ const Contact = () => {
                       Email
                     </h4>
                     <p className="text-muted-foreground text-sm mt-1">
-                      info@jalashvaa.com
+                      info@jalashvaa.in
                     </p>
                   </div>
                 </div>

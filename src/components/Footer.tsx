@@ -85,7 +85,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-gold shrink-0" />
-                <span>info@jalashvaa.com</span>
+                <span>info@jalashvaa.in</span>
               </li>
             </ul>
           </div>
@@ -110,7 +110,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-primary-foreground hover:text-gold transition-colors"
             >
-              HARSHAL KAMBLE
+              HARSHAL KAMBLE / it@jalashvaa.in
             </a>
           </p>
         </div>
