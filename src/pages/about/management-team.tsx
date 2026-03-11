@@ -137,6 +137,13 @@ const MgmtTeam = [
     description:
       "The Head of Accounts and Finance manages the company’s overall financial activities, including accounting, budgeting, and financial reporting. They ensure proper financial records, control expenses, and guide the finance team to maintain smooth financial operations.",
   },
+  {
+    name: "Vaibhav Tiwari",
+    role: "Advisor - Marine Services MIE",
+    image: "/board/vaibhav.jpg",
+    description:
+      "Director - Marine Business at Farohar Enterprizes. Vaibhav is an Experienced Professional with over 15 years in the maritime industry. He also has rich experience as certified Marine Engineer Officer serving onboard different class of vessels",
+  },
 ];
 
 const ManagementTeam = () => {
