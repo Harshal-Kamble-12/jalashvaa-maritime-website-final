@@ -50,7 +50,7 @@ const Index = () => {
               />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gold rounded-lg flex items-center justify-center shadow-gold">
                 <div className="text-center text-navy">
-                  <span className="block font-heading text-2xl font-bold">15+</span>
+                  <span className="block font-heading text-2xl font-bold">10+</span>
                   <span className="text-xs font-semibold">Years</span>
                 </div>
               </div>
