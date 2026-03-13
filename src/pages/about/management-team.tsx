@@ -121,7 +121,7 @@ const MgmtTeam = [
     role: "Head - Technical",
     image: "/board/ankit.jpg",
     description:
-      "A chief engineer having a proven track record in managing a pool of ships (Dry as well as Liquid Cargo). While being an expert technical manager he specializes in the new building and has delivered 3 oil/chem tankers (keel to delivery). Involved in drawing approval of 2 vessels in Namura & Imabari in Japan.",
+      "A chief engineer having a proven track record in managing a pool of ships (Dry as well as Liquid Cargo). While being an expert technical manager he specializes in the new building and has delivered oil/chem tankers (keel to delivery). Involved in drawing approval of vessels in Namura & Imabari in Japan.",
   },
   {
     name: "Amit Singh",
