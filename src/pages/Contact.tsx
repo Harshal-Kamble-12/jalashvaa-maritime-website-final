@@ -564,7 +564,7 @@ const Contact = () => {
               <div className="rounded-lg overflow-hidden shadow-maritime">
                 <iframe
                   title="Map"
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3772.1377556422403!2d73.03321852503818!3d19.013650532178165!2m3!1f0!2f0!3f0"
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3772.1377556422403!2d73.03321852503818!3d19.013650532178165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sJalashvaa%20Maritime%20Private%20Limited%20508-509%2C%20A-wing%2C%20Mahavir%20Icon%2C%20Plot%2089%2F90!5e0!3m2!1sen!2sin!4v1771997470998!5m2!1sen!2sin"
                   width="100%"
                   height="250"
                   style={{ border: 0 }}
